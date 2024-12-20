@@ -1,0 +1,45 @@
+/* Gaya umum untuk body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Kontainer peta */
+  .map {
+    width: 90%; /* Memberikan margin samping */
+    height: 500px; /* Tinggi peta lebih besar */
+    margin: 20px auto; /* Pusatkan peta secara horizontal */
+    border: 2px solid #007BFF; /* Garis biru di sekitar peta */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
+  }
+  
+  /* Header dengan judul */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF; /* Warna biru */
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  /* Footer untuk informasi tambahan */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
